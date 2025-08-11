@@ -1,6 +1,5 @@
 import type { State } from "./state.js";
-import {PokeAPI, ShallowLocations} from "./pokeapi.js";
-import { url } from "inspector";
+import {ShallowLocations} from "./pokeapi.js";
 
 function printer(locations:ShallowLocations):void{
 for(const result of locations.results){
